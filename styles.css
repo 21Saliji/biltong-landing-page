@@ -2,7 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/905/original/Are_you_ready_for_biltong_bliss__%F0%9F%A4%A9_Cowboy_Biltong's_Traditional_WET___FATTY_variety_is_a_mouthwatering_revelation!_%F0%9F%92%A7_With_its_delectable_wet_and_fatty_texture__it's_a_treat_that'll_keep_you_coming_back_for_more_.jpeg?1704133920") center/cover fixed;
+    background:linear-gradient(rgba(255, 248, 225, 0.55), rgba(255, 248, 225, 0.55)),
+url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/905/original/Are_you_ready_for_biltong_bliss__%F0%9F%A4%A9_Cowboy_Biltong's_Traditional_WET___FATTY_variety_is_a_mouthwatering_revelation!_%F0%9F%92%A7_With_its_delectable_wet_and_fatty_texture__it's_a_treat_that'll_keep_you_coming_back_for_more_.jpeg?1704133920") center/cover fixed;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
