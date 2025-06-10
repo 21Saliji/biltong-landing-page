@@ -1,95 +1,128 @@
+/* General body styles */
 body {
     margin: 0;
     padding: 0;
-    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/905/original/Are_you_ready_for_biltong_bliss__%F0%9F%A4%A9_Cowboy_Biltong's_Traditional_WET___FATTY_variety_is_a_mouthwatering_revelation!_%F0%9F%92%A7_With_its_delectable_wet_and_fatty_texture__it's_a_treat_that'll_keep_you_coming_back_for_more_.jpeg?1704133920") center/cover fixed; /* Replace with your actual image path */
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/905/original/Are_you_ready_for_biltong_bliss__%F0%9F%A4%A9_Cowboy_Biltong's_Traditional_WET___FATTY_variety_is_a_mouthwatering_revelation!_%F0%9F%92%A7_With_its_delectable_wet_and_fatty_texture__it's_a_treat_that'll_keep_you_coming_back_for_more_.jpeg?1704133920") center/cover fixed;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-div {
-    background: rgba(255, 255, 255, 0.9); /* Set the background color with some transparency */
-    margin: 20px;
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Main content container */
+.main-container {
+    background: rgba(255, 255, 255, 0.92);
+    margin: 32px auto;
+    padding: 24px 20px 20px 20px;
+    max-width: 600px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.10);
+    border-radius: 10px;
     border: 1px solid #ddd;
 }
 
-
+/* Headings */
 h1, h2 {
     text-align: center;
     font-weight: bold;
+    margin-top: 0;
 }
 
 h1 {
     font-size: 2em;
-    color: chocolate;
+    color: #E57373;
     margin-bottom: 10px;
 }
 
 h2 {
     font-size: 1.5em;
-    border: 1px solid coral;
+    color: #81C784;
+    border: 1px solid #FFB74D;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 20px;
 }
 
+/* Image styling */
 img {
     display: block;
-    margin: 0 auto;
-    max-width: 80%;
+    margin: 0 auto 16px auto;
+    max-width: 90%;
     border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
 
+/* Paragraphs */
 p {
     font-size: 1em;
     margin: 20px 0 10px;
+    color: #333;
 }
 
+/* Links */
 a {
-    font-size: 0.8em;
-    margin-top: 10px;
+    color: #E57373;
     text-decoration: none;
-    color: chocolate;
+    font-weight: 500;
+    transition: color 0.2s;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #FF7043;
 }
 
-button {
+/* Button styling */
+button, #findStoreButton {
     display: block;
-    margin: 20px auto;
-    background: orangered;
-    color: white;
-    font-size: 1em;
-    padding: 15px 20px;
+    margin: 24px auto 0 auto;
+    background: linear-gradient(90deg, #FFB74D 60%, #E57373 100%);
+    color: #fff;
+    font-size: 1.1em;
+    padding: 14px 28px;
     border: none;
     border-radius: 6px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    transition: background 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(229, 115, 115, 0.10);
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, box-shadow 0.3s;
 }
 
-button:hover {
-    background: #ff704d;
+button:hover, #findStoreButton:hover {
+    background: linear-gradient(90deg, #E57373 60%, #FFB74D 100%);
+    box-shadow: 0 6px 18px rgba(129, 199, 132, 0.12);
 }
 
+/* Map container */
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 1px solid #B0BEC5;
+    display: none;
+}
+
+/* Horizontal rule */
 hr {
-    margin: 20px 0;
+    margin: 24px 0 16px 0;
     border: none;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #B0BEC5;
 }
 
+/* Footer span */
 span {
-    font-size: 0.9em;
+    font-size: 0.95em;
+    color: #78909C;
+    display: block;
+    text-align: center;
 }
 
 strong {
+    color: #455A64;
     font-weight: bold;
 }
 
 em {
     font-style: italic;
 }
-
