@@ -48,8 +48,11 @@ document.addEventListener("DOMContentLoaded", function() {
             })
             .then(response => response.json())
             .then(data => {
-                if (data.elements.length === 0) {
-                    alert("No biltong stores found nearby.");
+               if (data.elements.length === 0) {
+                    L.popup()
+                        .setLatLng([lat, lon])
+                        .setContent("No biltong stores found nearby.")
+                        .openOn(map);
                     return;
                 }
                 data.elements.forEach(element => {
