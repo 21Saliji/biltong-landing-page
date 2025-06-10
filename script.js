@@ -53,7 +53,12 @@ document.addEventListener("DOMContentLoaded", function() {
                         .setLatLng([lat, lon])
                         .setContent("No biltong stores found nearby.")
                         .openOn(map);
+                    fetch('biltong_stores.json')
+                        .then(response => response.json())
+                        .then(stores => displayCuratedStores(stores));
                     return;
+                } else {
+                    document.getElementById('curatedStoresContainer').innerHTML = "";
                 }
                 data.elements.forEach(element => {
                     if (element.lat && element.lon) {
@@ -77,3 +82,20 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+function displayCuratedStores(stores) {
+    const container = document.getElementById('curatedStoresContainer');
+    if (!container) return;
+    container.innerHTML = `
+        <h3>Popular Biltong Stores</h3>
+        <ul>
+            ${stores.map(store => `
+                <li>
+                    <strong>${store.name}</strong> (${store.city}) 
+                    <a href="${store.url}" target="_blank">Visit</a>
+                    <span style="color:#FFB74D;">&#9733; ${store.rating}</span>
+                </li>
+            `).join('')}
+        </ul>
+    `;
+}

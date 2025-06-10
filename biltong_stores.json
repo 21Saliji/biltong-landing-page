@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Biltong & Braai Shop",
+    "city": "Cape Town",
+    "url": "https://biltongshop.co.za/",
+    "rating": 4.8
+  },
+  {
+    "name": "The Biltong Man",
+    "city": "Johannesburg",
+    "url": "https://thebiltongman.co.za/",
+    "rating": 4.7
+  },
+  {
+    "name": "Biltong Den",
+    "city": "Durban",
+    "url": "https://biltongden.co.za/",
+    "rating": 4.6
+  },
+  {
+    "name": "Biltong@ZA",
+    "city": "Pretoria",
+    "url": "https://biltongza.co.za/",
+    "rating": 4.5
+  },
+  {
+    "name": "Lekker Biltong",
+    "city": "London",
+    "url": "https://lekkerbiltong.com/",
+    "rating": 4.4
+  }
+]
