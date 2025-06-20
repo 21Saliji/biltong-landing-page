@@ -13,8 +13,7 @@ Welcome to **Find Me a Biltong Store**! This web app was inspired by my genuine 
 
 ## Files
 
-- **index.html:** Main landing page.
-- **biltong.html:** Page with information about biltong and a button to find a store.
+- **index.html:** Page with information about biltong and a button to find a store.
 - **styles.css:** All the styling for the site.
 - **script.js:** Handles user interactions, geolocation, and map logic.
 - **biltong_stores.json:** Curated list of popular biltong stores.
@@ -23,7 +22,7 @@ Welcome to **Find Me a Biltong Store**! This web app was inspired by my genuine 
 
 1. Clone the repository:  
    `git clone https://github.com/21Saliji/biltong-lovers-landing-page.git`
-2. Open `biltong.html` in your web browser.
+2. Open `index.html` in your web browser.
 3. On the biltong page, click the "Find a Biltong Store Near Me" button. The app will use your location to show nearby biltong stores on an interactive map. If none are found, you’ll see a curated list of popular stores.
 
 ## Features
