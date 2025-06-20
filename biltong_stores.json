@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Biltong Box",
+    "city": "Krugersdorp",
+    "url": "https://www.ubereats.com/za/store/biltong-box-krugersdorp/WUZQU6mcSvCAe8rNj1EDlQ",
+    "rating": 4.6
+  },
+  {
+    "name": "Grobbies Biltong and Braai",
+    "city": "Roodepoort",
+    "url": "https://www.grobbiesbraai.co.za/",
+    "rating": 4.5
+  },
+  {
+    "name": "Biltong@ZA (Pineslopes)",
+    "city": "Sandton",
+    "url": "https://www.biltong.co.za/",
+    "rating": 4.5
+  },
+  {
+    "name": "Bobaas Biltong",
+    "city": "Brakpan",
+    "url": "https://bobaasbiltong.co.za/",
+    "rating": 4.4
+  },
+  {
+    "name": "Billie Boys",
+    "city": "Durban",
+    "url": "https://billieboys.co.za/",
+    "rating": 4.5
+  },
+    {
+        "name": "Biltong & Braai",
+        "city": "Pretoria",
+        "url": "https://biltongandbraai.co.za/",
+        "rating": 4.7
+    },
+    {
+        "name": "Biltong King",
+        "city": "Cape Town",
+        "url": "https://biltongking.co.za/",
+        "rating": 4.8
+    },
+    {
+        "name": "The Biltong Bar",
+        "city": "Johannesburg",
+        "url": "https://thebiltongbar.co.za/",
+        "rating": 4.6
+    },
+    {
+        "name": "Biltong Boutique",
+        "city": "Port Elizabeth",
+        "url": "https://biltongboutique.co.za/",
+        "rating": 4.5
+    },
+    {
+        "name": "Biltong Emporium",
+        "city": "Bloemfontein",
+        "url": "https://biltongemporium.co.za/",
+        "rating": 4.4
+    },
+     {
+    "name": "Biltong & Braai Shop",
+    "city": "Cape Town",
+    "url": "https://biltongshop.co.za/",
+    "rating": 4.8
+  },
+  {
+    "name": "The Biltong Man",
+    "city": "Johannesburg",
+    "url": "https://thebiltongman.co.za/",
+    "rating": 4.7
+  },
+  {
+    "name": "Biltong Den",
+    "city": "Durban",
+    "url": "https://biltongden.co.za/",
+    "rating": 4.6
+  },
+  {
+    "name": "Biltong@ZA",
+    "city": "Pretoria",
+    "url": "https://biltongza.co.za/",
+    "rating": 4.5
+  },
+  {
+    "name": "Lekker Biltong",
+    "city": "London",
+    "url": "https://lekkerbiltong.com/",
+    "rating": 4.4
+  },
+    {
+        "name": "Biltong Express",
+        "city": "Johannesburg",
+        "url": "https://biltongexpress.co.za/",
+        "rating": 4.5
+    },
+    {
+        "name": "Biltong Heaven",
+        "city": "Cape Town",
+        "url": "https://biltongheaven.co.za/",
+        "rating": 4.6
+    },
+    {
+        "name": "Biltong & Co.",
+        "city": "Pretoria",
+        "url": "https://biltongandco.co.za/",
+        "rating": 4.7
+    },
+    {
+        "name": "Biltong Factory",
+        "city": "Durban",
+        "url": "https://biltongfactory.co.za/",
+        "rating": 4.5
+    },
+    {
+        "name": "Biltong World",
+        "city": "Johannesburg",
+        "url": "https://biltongworld.co.za/",
+        "rating": 4.8
+    },
+    {
+        "name": "Biltong Palace",
+        "city": "Port Elizabeth",
+        "url": "https://biltongpalace.co.za/",
+        "rating": 4.5
+    },
+    {
+        "name": "Biltong Central",
+        "city": "Bloemfontein",
+        "url": "https://biltongcentral.co.za/",
+        "rating": 4.4
+    },
+    {
+        "name": "Biltong Stop",
+        "city": "Cape Town",
+        "url": "https://biltongstop.co.za/",
+        "rating": 4.7
+    },
+    {
+        "name": "Biltong Delight",
+        "city": "Johannesburg",
+        "url": "https://biltongdelight.co.za/",
+        "rating": 4.6
+    },
+    {
+        "name": "Biltong Haven",
+        "city": "Durban",
+        "url": "https://biltonghaven.co.za/",
+        "rating": 4.5
+    },
+    {
+        "name": "Biltong Paradise",
+        "city": "Pretoria",
+        "url": "https://biltongparadise.co.za/",
+        "rating": 4.7
+    },
+    {
+        "name": "Biltong Emporium",
+        "city": "Cape Town",
+        "url": "https://biltongemporium.co.za/",
+        "rating": 4.8
+    },
+    {
+        "name": "Biltong Junction",
+        "city": "Johannesburg",
+        "url": "https://biltongjunction.co.za/",
+        "rating": 4.5
+    },
+    {
+        "name": "Biltong Corner",
+        "city": "Port Elizabeth",
+        "url": "https://biltongcorner.co.za/",
+        "rating": 4.4
+    },
+    {
+        "name": "Biltong Express",
+        "city": "Bloemfontein",
+        "url": "https://biltongexpress.co.za/",
+        "rating": 4.6
+    },
+    {
+        "name": "Biltong Stopover",
+        "city": "Cape Town",
+        "url": "https://biltongstopover.co.za/",
+        "rating": 4.7
+    },
+    {
+        "name": "Biltong Oasis",
+        "city": "Johannesburg",
+        "url": "https://biltongoasis.co.za/",
+        "rating": 4.5
+    },
+    {
+        "name": "Biltong Haven",
+        "city": "Durban",
+        "url": "https://biltonghaven.co.za/",
+        "rating": 4.6
+    },
+    {
+        "name": "Biltong Kingdom",
+        "city": "Pretoria",
+        "url": "https://biltongkingdom.co.za/",
+        "rating": 4.7
+    }
+]
